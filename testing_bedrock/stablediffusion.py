@@ -6,7 +6,7 @@ import json
 
 prompt = """
 
-provide me one 4k hd image of person who is standing over the mount everest peak.
+provide me one 4k hd image of person who is swimming in the river.
 
 """
 
