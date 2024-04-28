@@ -18,7 +18,7 @@ def data_ingestion():
     loader = PyPDFDirectoryLoader("./data")
     documents = loader.load()
     
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=100, chunk_overlap=1000)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=1000)
     docs = text_splitter.split_documents(documents)
     
     return docs
